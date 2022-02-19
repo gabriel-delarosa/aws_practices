@@ -22,6 +22,4 @@ variable "public_subnet_tags" {
   default = {}
 }
 
-variable "tags" {
-  
-}
+variable "tags" {}

@@ -30,10 +30,7 @@ module "vpc" {
 
   public_subnet_tags = var.public_subnet_tags
 
-  tags = {
-    Owner       = "gdlarosa"
-    Environment = "lab"
-  }
+  tags = var.tags
 
   vpc_tags = {
     Name = "vpc-ec2-lab"
